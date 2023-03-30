@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ===========================================================================================================================
+====================================================== Header ============================================================= */
+
+.logoimg{
+    width: 337px;
+    height: 157px;
+    padding: 28px;
+}
+
+.header{
+    background: url(/home/albs/Tec/Bro-mern/brototype/public/images/trial8.png)no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* ===========================================================================================================================
+====================================================== Footer ============================================================= */
+
+.footer{
+    background-color: black;
+}
+.icons{
+    color: #fff;
+}
+a {
+    color: white;
+    
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ Body +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* =================================
+======== page not found css ======= */
+.pnf {
+    display: flex;
+    min-height: 65vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pnf-title {
+    font-size: 100px;
+    font-weight: 700;
+  }
+  
+  .pnf-heading {
+    font-weight: normal;
+  }
+  
+  .pnf-btn {
+    color: rgb(65, 22, 22);
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .pnf-btn:hover {
+    background-color: #05130b;
+    color: rgb(244, 239, 239);
+  }
